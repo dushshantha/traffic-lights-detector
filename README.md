@@ -57,7 +57,7 @@ Then, you can train the model:
 
     python $MODELS/research/object_detection/train.py  \
         --logtostderr \
-        --pipeline_config_path=faster_rcnn_resnet101_lights.config
+        --pipeline_config_path=faster_rcnn_resnet101_lights.config \
         --train_dir=train
 
 I find that running it for about 30000 iterations produces pretty good results.
